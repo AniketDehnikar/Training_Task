@@ -1,5 +1,4 @@
 
-  
 variable "username" {
   type    =  list(string)
   default = []
@@ -26,12 +25,12 @@ variable "name" {
 
 variable "policy_name" {
   type = string
-  default = "ECR"
+  default = ""
   
 }
 variable "tag_name" {
     type = map(string)
     default = {
-      "name" = "logics"
+      "name" = "Users"
     }
 }
