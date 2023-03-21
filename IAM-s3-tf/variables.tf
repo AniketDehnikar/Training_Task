@@ -18,10 +18,6 @@ variable "secret_key" {
   default = ""
 }
 
-variable "name" {
-  type = string
-  default = ""
-}
 
 variable "policy_name" {
   type = string

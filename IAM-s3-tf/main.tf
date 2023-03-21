@@ -15,7 +15,7 @@ resource "aws_iam_user_policy_attachment" "ecr" {
 
 
 resource "aws_iam_policy" "policy" {
-  name        = var.name
+  name        = var.policy_name
     description = "My test policy"
 
 
